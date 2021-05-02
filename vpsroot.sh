@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -f vpsroot.sh
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 clear                                             
@@ -10,6 +11,6 @@ echo -e '+         Set your username to "root" then input your password"        
 echo -e '+                                                                      +'
 echo -e '+======================================================================+'
 systemctl restart ssh
-
-exit 1
 rm -f vpsroot.sh
+exit 1
+
