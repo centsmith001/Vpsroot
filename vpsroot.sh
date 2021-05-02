@@ -4,7 +4,7 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_
 clear                                             
 echo -e '+======================================================================+'
 echo -e '+                                                                      +'
-echo -e '+           To set password just run "passwd root" comman              +'
+echo -e '+          To set password just run "passwd root" command              +'
 echo -e '+ Go to your VPS credentials or "identities" if you are using juicessh +'          
 echo -e '+         Set your username to "root" then input your password"        +'
 echo -e '+                                                                      +'
