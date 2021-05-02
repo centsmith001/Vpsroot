@@ -10,5 +10,5 @@ echo -e '+         Set your username to "root" then input your password"        
 echo -e '+                                                                      +'
 echo -e '+======================================================================+'
 systemctl restart ssh
-rm -f root.sh
+rm -f vpsroot.sh
 exit 1
